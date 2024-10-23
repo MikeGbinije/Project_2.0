@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chipotle Order</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <img src="chiptole.png" alt="chipotle-logo" />
+      <h1>Chipotle Order</h1>
+    </nav>
+    <main>
+      <form action="">
+        <h2>Step 1: Choose Type</h2>
+        <section class="step1">
+          <label for="bowl">Bowl</label>
+          <input type="radio" id="bowl" name="order" value="bowl" />
+          <label for="burrito">Burrito</label>
+          <input type="radio" id="burrito" name="order" value="burrito" />
+          <label for="salad">Salad</label>
+          <input type="radio" id="salad" name="order" value="salad" />
+          <div id="where">
+            <label for="for-here">For Here</label>
+            <input
+              type="radio"
+              id="for-here"
+              name="here-or-to-go"
+              value="for-here"
+            />
+            <span id="or">or</span>
+            <label for="to-go">To Go</label>
+            <input type="radio" id="to-go" name="here-or-to-go" value="to-go" />
+          </div>
+        </section>
+        <h2>Step 2: Choose Fillings</h2>
+        <section class="Step2">
+          <select name="rice" id="rice">
+            <option value="white-rice">White Rice</option>
+            <option value="brown-rice">Brown Rice</option>
+            <option value="no-rice">No /Rice</option>
+          </select>
+          <select name="beans" id="beans">
+            <option value="black-beans">Black Beans</option>
+            <option value="pinto-beans">Pinto Beans</option>
+            <option value="no-beans">No Beans</option>
+          </select>
+          <select name="meat" id="meat">
+            <option value="chicken">Chicken</option>
+            <option value="steak">Steak</option>
+            <option value="sofritas">Sofritas</option>
+            <option value="no-meat">No Meat</option>
+          </select>
+        </section>
+        <h2>Step 3: Choose Toppings</h2>
+        <section class="Step3">
+          <label for="queso">Queso</label>
+          <input type="checkbox" name="queso" id="queso" value="queso" />
+          <label for="cheese">Cheese</label>
+          <input type="checkbox" name="cheese" id="cheese" value="cheese" />
+          <label for="mild">Mild</label>
+          <input type="checkbox" name="mild" id="mild" value="mild" />
+          <label for="hot">Hot</label>
+          <input type="checkbox" name="hot" id="hot" value="hot" />
+          <label for="corn">Corn</label>
+          <input type="checkbox" name="corn" id="corn" value="corn" />
+          <label for="guacamole">Guacamole</label>
+          <input
+            type="checkbox"
+            name="guacamole"
+            id="guacamole"
+            value="guacamole"
+          />
+          <label for="lettuce">Lettuce</label>
+          <input type="checkbox" name="lettuce" id="lettuce" value="lettuce" />
+        </section>
+        <h2>Step 4: Choose Chips & Drink</h2>
+        <section class="Step4">
+          <label for="chips">Select Chips:</label>
+          <select name="chips" id="chips">
+            <option value="small">Small</option>
+            <option value="large">Large</option>
+            <option value="no-chips">No Chips</option>
+          </select>
+          <label for="no-chip-guac">No Guac</label>
+          <input
+            type="radio"
+            value="chip-guac"
+            id="no-chip-guac"
+            name="chipsw/guac"
+          />
+          <label for="yes-chip-guac">Guac</label>
+          <input
+            type="radio"
+            value="chip-guac"
+            id="yes-chip-guac"
+            name="chipsw/guac"
+          />
+          <br />
+          <label for="drink">Select Drink:</label>
+          <select name="drink" id="drink">
+            <option value="soda">Soda</option>
+            <option value="lemonade">Lemonade</option>
+            <option value="water">Water</option>
+            <option value="no-drink">No drink</option>
+          </select>
+        </section>
+        <button>Finished</button>
+      </form>
+    </main>
+  </body>
+</html>

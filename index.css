@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    background-color: sienna;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+
+img {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 6rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+#where {display: flex;
+flex-direction: row;
+margin-top: 0.4rem;}
+
+button {
+    display: block;
+    margin-top: 1rem;
+}
+
+#or {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
